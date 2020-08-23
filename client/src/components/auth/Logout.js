@@ -8,7 +8,12 @@ class Logout extends Component {
   }
 
   render() {
-    return <div>Hope to see you again!!</div>;
+    return (
+      <div>
+        Hope to see you again!!
+        <Link to="/">Go Back</Link>
+      </div>
+    );
   }
 }
 
