@@ -22,7 +22,7 @@ class App extends Component {
       <div className="container">
         <BrowserRouter>
           <div>
-            <Dashboard />
+            <Route exact path="/login" component={Dashboard} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/logout" component={Logout} />
             <Route exact path="/posts" component={Posts} />
